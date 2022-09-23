@@ -1,0 +1,228 @@
+body {
+    /* toda la pantalla */
+    margin: 0px;
+}
+
+/* Barra de navegacion */
+.nav-tienda {
+    display: flex;
+    background-color: #04AA6D;
+    justify-content: space-between;
+
+}
+
+/* Style the links inside the navigation bar */
+.nav-tienda a {
+
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-tienda div {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+}
+
+/* Change the color of links on hover */
+.nav-tienda a:hover {
+    font-family: 'Times New Roman', Times, serif;
+    color: #080808;
+    cursor: pointer;
+}
+
+/* Alinear imagen a la derecha */
+.banner-compra {
+    margin-right: auto;
+    display: block;
+    height: 300px;
+    margin-top: 5% 0 5% 0;
+    padding: 5px;
+    float: right;
+}
+
+/* Alinear texto del head */
+.text-head {
+    margin-left: auto;
+    text-align: left;
+    margin-top: 130px;
+    float: center;
+
+}
+
+/* desaparecer texto */
+.desaparecer-texto {
+
+    color: #fff;
+    background-color: #fff;
+}
+
+/* Aplicando color verde*/
+.color-verde {
+    background-color: #04AA6D;
+    color: #fff;
+    padding: 5% 0 5% 0;
+}
+
+.color-verde-interno {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 10% 0px 10%;
+    justify-content: space-between;
+}
+
+/* usar este para titulos verdes */
+.titulos {
+    text-decoration: none;
+    font-size: 20px;
+    list-style: none;
+    margin: 5% 0px 5% 0px;
+    font-weight: bold;
+    color: #0fb14d;
+    text-align: center;
+}
+
+/* boton info personalizar */
+.btn-info {
+    background-color: #28e031;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+
+}
+
+/* Ubicar el titulo tienda en el centro */
+.posicionar-titulo {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    /* abarcar la fila completa */
+    justify-content: center;
+    align-items: center;
+    color: #04AA6D;
+}
+
+/* Ubicar las categorias */
+.categoria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10% 0px 10%;
+    color: #04AA6D;
+}
+
+/* Columnas y filas */
+.dos-columnas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10% 0px 10%;
+}
+
+/* seleccionado categoria tecnologia */
+.amarillo-circulo {
+    background-color: #f7f700;
+    border-radius: 15%;
+    height: 40px;
+    margin-right: 15px;
+    border: 1px solid #0fb14d;
+    padding: 5px;
+}
+
+/* rellenar los botones de las categorias */
+.relleno-botones {
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 15%;
+    background-color: #e9e9de;
+    border-radius: 10%;
+    height: 40px;
+    margin-right: 15px;
+    border: 1px solid #adb3af;
+}
+
+/* colocar las imagenes de producots */
+.imagenes-tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 2px 2px #d3d3d3d1;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin: 0px 12px 0px 12px;
+    text-align: center;
+}
+
+/* Ajustar por columnas con reverse*/
+.dos-columnas-productos {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 0px 10% 0px 10%;
+    padding: 5% 0px 5% 0px;
+}
+
+/* dos columnas normales */
+.dos-columnas {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10% 0px 10%;
+    padding: 5% 0px 5% 0px;
+}
+
+/* quitar la opcion de lista */
+.no-lista {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+/* centrar el footer */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 10% 0px 10%;
+    align-items: center;
+    text-align: center;
+    color: #0fb14d
+}
+/* hr final - color verde */
+.hr-final {
+    border: 0.01px solid #5ae790;
+}
+
+/* boton lo quiero - diseño */
+.btn-quiero {
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    text-align: left;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-quiero a {
+    text-decoration: none;
+    color: #28e031;
+}
+

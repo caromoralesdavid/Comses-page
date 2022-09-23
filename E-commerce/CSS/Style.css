@@ -1,0 +1,410 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+body {
+    /* toda la pantalla */
+    margin: 0px;
+}
+
+/* Add a green background color to the top navigation */
+.topnav {
+    display: flex;
+    background-color: #04AA6D;
+    justify-content: space-between;
+
+}
+
+/* Alinear imagen a la derecha */
+.banner-1 {
+    margin-right: auto;
+    display: block;
+    height: 300px;
+    margin-top: 5% 0 5% 0;
+    padding: 5px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav div {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+}
+
+
+
+/* colocar border radius a la imagen */
+#dolar {
+    border-radius: 50%;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.h3-iniciales {
+    color: #04AA6D;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    font-family: 'Times New Roman', Times, serif;
+    color: #080808;
+    cursor: pointer;
+}
+
+
+.logo {
+    width: 100px;
+}
+
+.tres-logos {
+    display: flex;
+
+    border-radius: 80%;
+}
+
+.textos-de-head {
+    text-align: center;
+    margin-top: 100px;
+    float: left;
+}
+
+.div-verde {
+    background: linear-gradient(180deg, rgba(33, 151, 58, 1) 0%, rgb(157, 214, 169) 35%, rgb(232, 238, 233) 100%);
+    color: #fff;
+    padding: 5% 0 5% 0;
+}
+
+/* Justificar textos centrados y a la mitad de la pantalla */
+.justificar-texto {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+   
+}
+
+.div-verde-2 {
+    background-color: #04AA6D;
+    color: #fff;
+    padding: 5% 0 5% 0;
+}
+
+#div-verde {
+    background-color: #04AA6D;
+    color: #fff;
+    padding: 3% 0 3% 0;
+    width: max-content;
+}
+
+/* relleno de los temas de las tarjetas */
+#relleno-verde {
+    background-color: #04AA6D;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.div-verde-internal {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 10% 0px 10%;
+    justify-content: space-between;
+}
+
+.div-blanco {
+    background-color: #fff;
+    color: #000;
+    padding: 5% 0px 5% 0px;
+}
+
+.div-blanco-interno {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 10% 0px 10%;
+    justify-content: space-between;
+}
+
+.dos-filas {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    /* abarcar la fila completa */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dos-columnas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10% 0px 10%;
+}
+
+.tres-columnas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10% 0px 10%;
+}
+
+.dos-filas>div {
+
+
+    flex-grow: 10;
+
+}
+
+.dos-columnas-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 0px 10% 0px 10%;
+    padding: 5% 0px 5% 0px;
+}
+
+.centrar-nosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 10% 0px 10%;
+    align-items: center;
+    text-align: center;
+
+}
+
+/* color de 3 titulos  */
+#color-tres {
+    color: #04AA6D;
+    padding: 5% 0 5% 0;
+}
+
+.novedades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.fondo-novedades {
+
+    background-image: url("../Recursos/dama sonriendo.jpg");
+    padding: 40% 0 40% 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+/* posicion de las olas */
+.wave-ola {
+    position: absolute;
+    margin-top: -300px;
+}
+
+.wave-wave {
+    margin-top: 5px;
+}
+
+/* centrar el texto y con fuente 16px */
+.posicion-central {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-size: 20px;
+}
+
+/* Icono de ver videos redondo con un tamaño pequeño */
+#Ver-videos {
+    border-radius: 50%;
+    margin-right: 1px;
+    font-size: 20px;
+    color: #fff;
+}
+#Ver-videos:hover {
+    color: #e9ec16f5;
+}
+.texto-video{
+    color: #fff;
+    font-size: 20px;
+}
+/* icono video con border radius */
+.icono-video {
+    border-radius: 50%;
+    margin-right: 1px;
+    font-size: 20px;
+    color: #fff;
+}
+
+/* tarjetas de los 3 items de Refinanciacion, Requisitos y Protocolo */
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 2px 2px #d3d3d3d1;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin: 0px 12px 0px 12px;
+}
+
+/* hr con un 45% de tamaño */
+.hr-servicios {
+    width: 45%;
+}
+
+/* Titulo en grande nosotros */
+.Titulo-nosotros {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0px 0px 0px 0px;
+}
+
+/* Rodar un poco a la izquierda la imagen */
+.Imagen-nosotros {
+    margin-left: 15px;
+    margin-top: 10px;
+    height: 300px;
+    border-radius: 0px;
+
+}
+
+/* boton saber mas color verde y radius 50% */
+.btn-saber-mas {
+    background-color: #30d819;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+/* boton color verde con */
+.btn-vacios {
+    background-color: #30d819;
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px 35px 15px 35px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-vacios-2 {
+    background-color: #30d819;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px 15px 20px 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* tarjetas de portada con bordes tipo 3d */
+.tarjetas-portadas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 2px 2px #d3d3d3d1;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin: 0px 12px 0px 12px;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(224, 228, 224) 0%, rgb(109, 151, 118) 0%, rgb(142, 146, 143) 100%);
+}
+
+/* tarjetas portadas con fondo blanco */
+.tarjetas-blanco {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 2px 2px #d3d3d3d1;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin: 0px 12px 0px 12px;
+    background-color: #fff;
+    color: #000;
+    height: 500px;
+}
+
+/* ajustar tamaño de las imagenes de las tarjetas a un tamaño ideal */
+.tarjetas-portadas img {
+    height: 200px;
+    width: 80%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+/* Pie de las tarjetas */
+.pie a {
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    padding: 2px 5px 2px 5px;
+
+}
+
+.pie a:after {
+    position: flex;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    text-align: center;
+
+}
+
+
+/* Titulo lorem color verde y tamaño mediano */
+.Titulo-lorem {
+    color: #04AA6D;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5% 0px 5% 0px;
+    text-decoration: none;
+    list-style: none;
+    justify-items: center;
+
+}
+
+/* quitar los puntos de la lista ul  */
+.ul-css {
+    list-style: none;
+    text-decoration: none;
+    padding: 5% 0 5% 0;
+}
